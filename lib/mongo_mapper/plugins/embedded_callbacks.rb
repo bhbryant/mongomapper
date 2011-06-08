@@ -11,6 +11,7 @@ module MongoMapper
       end
 
       module InstanceMethods
+=begin        
         def run_callbacks(callback, &block)
           embedded_docs = []
 
@@ -27,6 +28,7 @@ module MongoMapper
           end
           super callback, &block
         end
+=end
       end
     end
   end
